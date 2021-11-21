@@ -38,7 +38,7 @@ def new_key():
     return key
 
 
-# # Returns current key or creates a new key
+# # Creates new or returns current key
 def key():
     if os.path.exists(key_fp):
         make = input("Key exists. Make new key? (y/n) ")
